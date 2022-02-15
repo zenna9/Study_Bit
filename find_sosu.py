@@ -36,3 +36,5 @@ def solution(nums):
     return count_can_sosu
 
 print(solution(nums))
+#종료
+
