@@ -18,7 +18,4 @@ def sosu_list(find_until):
         i += 1
     return result
 
-
-nums = sosu_list(30)
-
-print(type(nums.count(7)))
+print(sosu_list(1000000))

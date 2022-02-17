@@ -19,7 +19,7 @@ def sosu_list(find_until):
     return result
 
 sosu = sosu_list(1000+999+998)
-nums = [1,2,7,6,4]
+nums = [1,2,7,6,4, 8, 9, 15, 88, 999]
 
 def solution(nums):
     nums.sort()
@@ -36,5 +36,4 @@ def solution(nums):
     return count_can_sosu
 
 print(solution(nums))
-#종료
 
